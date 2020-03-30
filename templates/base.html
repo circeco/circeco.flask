@@ -4,7 +4,8 @@
     <title>Hello Flask</title>
 
     <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/clean-blog.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/clean-blog.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css" />
 </head>
 
 <body>
@@ -22,13 +23,13 @@
                         <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('about') }}">Circular Atlas</a>
+                        <a class="nav-link" href="{{ url_for('about') }}">Circular Action</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                        <a class="nav-link" href="{{ url_for('contact') }}">Circular Atlas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('careers') }}">Careers</a>
+                        <a class="nav-link" href="{{ url_for('careers') }}">Contact</a>
                     </li>
                 </ul>
             </div>
