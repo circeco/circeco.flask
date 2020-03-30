@@ -169,7 +169,6 @@ img::-moz-selection {
 }
 
 header.masthead {
-    background-image: url("../img/forest.jpg");
     margin-bottom: 50px;
     background: no-repeat center center;
     background-color: black;
