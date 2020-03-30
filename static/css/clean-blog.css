@@ -169,8 +169,8 @@ img::-moz-selection {
 }
 
 header.masthead {
+  background: url("../static/img/forest.jpg");
   margin-bottom: 50px;
-  background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
   position: relative;
